@@ -4,7 +4,7 @@ namespace: default
 metadata:
   name: dwk1-app-svc
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: dwk1-app
   ports:
