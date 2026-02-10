@@ -4,7 +4,7 @@ namespace: default
 metadata:
   name: dwk1-app-dep
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: dwk1-app
